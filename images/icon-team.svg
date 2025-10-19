@@ -1,0 +1,9 @@
+<!-- icon-team.svg -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="10" r="4" stroke="white" stroke-width="2"/>
+  <path d="M8 24C8 20 11.5 18 16 18C20.5 18 24 20 24 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="8" cy="12" r="3" stroke="white" stroke-width="1.5"/>
+  <circle cx="24" cy="12" r="3" stroke="white" stroke-width="1.5"/>
+  <path d="M4 26C4 23 6 21 9 21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M28 26C28 23 26 21 23 21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<!-- icon-support.svg -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 4C9.4 4 4 9.4 4 16C4 18.5 4.8 20.8 6.1 22.7L4 28L9.3 25.9C11.2 27.2 13.5 28 16 28C22.6 28 28 22.6 28 16C28 9.4 22.6 4 16 4Z" stroke="white" stroke-width="2"/>
+  <path d="M12 14C12 14 13 11 16 11C19 11 20 13 20 14C20 15.5 18.5 16 17 16.5C16 17 15 17.5 15 19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="15.5" cy="22" r="1.5" fill="white"/>
+</svg>
