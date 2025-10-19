@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HeliService - Ingeniería especializada en helipuertos, instalaciones eléctricas industriales y sistemas de control">
+    <title>IEMG - Instalaciones Especiales</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon">IEMG</div>
+                    <span class="logo-text">Instalaciones Especiales</span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="nav-menu" id="navMenu">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#servicios" class="nav-link">Servicios</a>
+                    <a href="#proyectos" class="nav-link">Proyectos</a>
+                    <a href="#certificaciones" class="nav-link">Certificaciones</a>
+                    <a href="#nosotros" class="nav-link">Nosotros</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <!-- Video Background -->
+        <div class="hero-video-container">
+            <video 
+                autoplay 
+                loop 
+                muted 
+                playsinline
+                class="hero-video"
+                id="heroVideo"
+            >
+                <source src="videos/1.mp4" type="video/mp4">
+            </video>
+            <div class="hero-video-overlay"></div>
+        </div>
+        
+        <!-- Fallback gradient background for browsers that don't support video or while loading -->
+        <div class="hero-background">
+            <div class="hero-blur hero-blur-1"></div>
+            <div class="hero-blur hero-blur-2"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Instalaciones Especiales</span>
+                    <br>
+                    <span>en Infraestructura Crítica</span>
+                </h1>
+                <p class="hero-description">
+                    Expertos en helipuertos, instalaciones eléctricas industriales y sistemas de control. 
+                    Soluciones integrales con certificación internacional.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Solicitar Cotización</a>
+                    <a href="#proyectos" class="btn btn-secondary">Ver Proyectos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-indicator-inner"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-subtitle">Soluciones técnicas especializadas con los más altos estándares</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Helipuertos -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icon-heliport.svg" alt="Helipuertos">
+                    </div>
+                    <h3 class="service-title">Helipuertos</h3>
+                    <p class="service-description">
+                        Diseño, construcción y mantenimiento de helipuertos certificados. 
+                        Iluminación perimetral, señalización y sistemas de seguridad.
+                    </p>
+                    <ul class="service-features">
+                        <li>Diseño y construcción de plataformas</li>
+                        <li>Sistemas de iluminación LED certificados</li>
+                        <li>Señalización y marcaje OACI</li>
+                        <li>Mantenimiento preventivo integral</li>
+                        <li>Actualizaciones normativas</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2: Instalaciones Eléctricas -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icon-electrical.svg" alt="Instalaciones Eléctricas">
+                    </div>
+                    <h3 class="service-title">Instalaciones Eléctricas</h3>
+                    <p class="service-description">
+                        Proyectos eléctricos industriales y comerciales de alta y baja tensión 
+                        con certificación y garantía total.
+                    </p>
+                    <ul class="service-features">
+                        <li>Subestaciones eléctricas</li>
+                        <li>Tableros de distribución</li>
+                        <li>Sistemas de respaldo (UPS/Grupos)</li>
+                        <li>Redes de media y baja tensión</li>
+                        <li>Puesta a tierra y protecciones</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3: Sistemas de Control -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icon-control.svg" alt="Sistemas de Control">
+                    </div>
+                    <h3 class="service-title">Sistemas de Control</h3>
+                    <p class="service-description">
+                        Automatización industrial, control de procesos y sistemas SCADA 
+                        para máxima eficiencia operativa.
+                    </p>
+                    <ul class="service-features">
+                        <li>PLC y automatización</li>
+                        <li>Sistemas SCADA</li>
+                        <li>Control de iluminación</li>
+                        <li>Domótica industrial</li>
+                        <li>Integración de sistemas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-subtitle">Experiencia comprobada en proyectos de alta complejidad</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-name">Hospital Universitario Central</h3>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <p class="project-type">Helipuerto H1 + Iluminación</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-name">Centro Comercial Plaza Mayor</h3>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <p class="project-type">Instalación Eléctrica 2.5 MVA</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-name">Planta Industrial AutoParts</h3>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <p class="project-type">Automatización SCADA Completa</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-name">Edificio Corporativo TechHub</h3>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <p class="project-type">Sistema Eléctrico + BMS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certificaciones" class="section section-gradient">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certificaciones y Normativas</h2>
+                <p class="section-subtitle">Cumplimiento total de estándares internacionales</p>
+            </div>
+
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <img src="images/icon-certificate.svg" alt="Certificación" class="cert-icon">
+                    <div class="cert-name">ISO 9001:2015</div>
+                    <div class="cert-desc">Gestión de Calidad</div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/icon-certificate.svg" alt="Certificación" class="cert-icon">
+                    <div class="cert-name">ISO 14001</div>
+                    <div class="cert-desc">Gestión Ambiental</div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/icon-certificate.svg" alt="Certificación" class="cert-icon">
+                    <div class="cert-name">OHSAS 18001</div>
+                    <div class="cert-desc">Seguridad y Salud</div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/icon-certificate.svg" alt="Certificación" class="cert-icon">
+                    <div class="cert-name">OACI Anexo 14</div>
+                    <div class="cert-desc">Helipuertos</div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/icon-certificate.svg" alt="Certificación" class="cert-icon">
+                    <div class="cert-name">NOM-001-SEDE</div>
+                    <div class="cert-desc">Instalaciones Eléctricas</div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/icon-certificate.svg" alt="Certificación" class="cert-icon">
+                    <div class="cert-name">IEC 61508</div>
+                    <div class="cert-desc">Sistemas de Control</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="nosotros" class="section section-dark">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <p class="about-text">
+                        Con más de 15 años de experiencia en el sector, HeliService se ha consolidado 
+                        como líder en ingeniería especializada para infraestructura aeroportuaria y 
+                        sistemas eléctricos industriales.
+                    </p>
+                    <p class="about-text">
+                        Nuestro equipo multidisciplinario de ingenieros certificados garantiza la 
+                        excelencia en cada proyecto, desde el diseño hasta la puesta en marcha y mantenimiento.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Proyectos Completados</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Profesionales</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="images/icon-shield.svg" alt="Seguridad">
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Seguridad Certificada</h3>
+                            <p class="feature-desc">Todos nuestros proyectos cumplen con las normativas más exigentes</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="images/icon-team.svg" alt="Equipo">
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Equipo Experto</h3>
+                            <p class="feature-desc">Ingenieros certificados con amplia experiencia internacional</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="images/icon-support.svg" alt="Soporte">
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">Soporte Integral</h3>
+                            <p class="feature-desc">Mantenimiento y soporte técnico 24/7 para todos nuestros clientes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customers Section -->
+    <section id="clientes" class="section customers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Clientes</h2>
+                <p class="section-subtitle">Empresas líderes que confían en nosotros</p>
+            </div>
+        </div>
+
+        <div class="customers-slider">
+            <div class="customers-track">
+                <!-- Primer set de logos -->
+                <div class="customer-logo">
+                    <img src="images/clients/atg.png" alt="ATG">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/sedena.png" alt="Sedena">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/brom.png" alt="Brom">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/carlsjr.png" alt="Cliente 4">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/farine.png" alt="Cliente 5">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/mumuso.png" alt="Cliente 6">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/senado.png" alt="Cliente 7">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/themarket.png" alt="Cliente 8">
+                </div>
+
+                <!-- Segundo set (duplicado para scroll infinito) -->
+                <div class="customer-logo">
+                    <img src="images/clients/atg.png" alt="Cliente 1">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/sedena.png" alt="Cliente 2">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/brom.png" alt="Cliente 3">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/carlsjr.png" alt="Cliente 4">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/farine.png" alt="Cliente 5">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/mumuso.png" alt="Cliente 6">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/senado.png" alt="Cliente 7">
+                </div>
+                <div class="customer-logo">
+                    <img src="images/clients/themarket.png" alt="Cliente 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="section-subtitle">Estamos listos para desarrollar tu proyecto</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <img src="images/icon-phone.svg" alt="Teléfono" class="contact-icon">
+                    <div class="contact-label">Teléfono</div>
+                    <div class="contact-value">+52 55 1234 5678</div>
+                </div>
+
+                <div class="contact-card">
+                    <img src="images/icon-email.svg" alt="Email" class="contact-icon">
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">contacto@iemg.mx</div>
+                </div>
+
+                <div class="contact-card">
+                    <img src="images/icon-location.svg" alt="Ubicación" class="contact-icon">
+                    <div class="contact-label">Oficinas</div>
+                    <div class="contact-value">Ciudad de México</div>
+                </div>
+
+                <div class="contact-card">
+                    <img src="images/icon-clock.svg" alt="Horario" class="contact-icon">
+                    <div class="contact-label">Horario</div>
+                    <div class="contact-value">Lun - Vie: 8:00 - 18:00</div>
+                </div>
+            </div>
+
+            <div class="cta-box">
+                <h3 class="cta-title">¿Listo para iniciar tu proyecto?</h3>
+                <p class="cta-text">Solicita una cotización sin compromiso y descubre cómo podemos ayudarte</p>
+                <a href="#contacto" class="btn btn-white">Solicitar Cotización</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">IEMG</div>
+                    <span class="logo-text">Instalaciones Especiales</span>
+                </div>
+                <p class="footer-text">
+                    Ingeniería especializada en helipuertos, instalaciones eléctricas y sistemas de control
+                </p>
+                <p class="footer-copyright">
+                    © 2025 IEMG. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
